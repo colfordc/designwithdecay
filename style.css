@@ -1,7 +1,12 @@
+@font-face {
+	src: url(fonts/HKGrotesk-Medium.ttf);
+	font-family: HK-med;
+}
+
 body{
-	font-family: Helvetica;
-	font-size: 17px;
-	line-height: 1.6;
+	font-family: HK-med;
+	font-size: 32px;
+	line-height: 1.2;
 }
 
 
