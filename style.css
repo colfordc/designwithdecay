@@ -3,20 +3,52 @@
 	font-family: HK-med;
 }
 
-body{
-	font-family: HK-med;
-	font-size: 32px;
+h1{
+	font-family: Times New Roman;
+	font-size: 36px;
 	line-height: 1.2;
+	font-weight: normal;
+	color: blue;
 }
 
+h2{
+	font-family: Times New Roman;
+	font-size: 28px;
+	line-height: 1.2;
+	font-weight: normal;
+	color: black;
+}
 
+p{
+	font-family: Times New Roman;
+	font-size: 18px;
+	line-height: 1.2;
+	margin-left: 50px;
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+}
+
+mark{
+	background-color: blue;
+	color: white;
+}
 
 .container{
-	width: 80%;
-	margin: auto;
-	padding-top: 5%;
+	width: 550px;
+	margin-left: 200px;
+	padding-top: 40px;
 }
 
 .image{
 	width: 100%;
+}
+
+.fixed-header{
+	width: 150px;
+	position: fixed;
+	padding: 10px;
+	z-index: 1;
 }
